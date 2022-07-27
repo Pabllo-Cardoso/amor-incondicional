@@ -1,0 +1,46 @@
+* 
+/*margem do documento html*/
+{ 
+    margin: 0 auto;/*margem automática do conteudo*/
+}
+/*corpo do documento html*/
+body {
+    background: url(./image.jpg);/* imagem de fundo do documento html*/
+    background-repeat: repeat;/* imagem sem repetição*/
+    background-size: 1600px;/*tamano da imagem-fundo do corpo do documento html*/
+}
+/* divisão de um elemento*/
+div {
+    text-align: center;/* divisão centralizada no doumento*/
+}
+/* imagem aplicada*/
+img {
+    margin-top: 150px;/* margem topo*/
+    border-radius: 100px;/* borda arredondada*/
+    border: 8px solid rgb(128, 10, 238);/* borda sólida cor rosa*/
+    padding: 0px;/* espaço interno da imagem*/
+    width: 200px;/* largura da imagem em (200%)*/
+}
+/* destaque maior uma fonte de um elemento*/
+h1 { 
+    margin-top:40px; /*margem superior do conteudo*/
+    margin-bottom: 10px; /*margem inferior do conteudo*/
+    color: rgb(128, 10, 238); /* define a cor do texto*/
+    text-align: center;/* texto centralizado na página*/
+    font-size: 80px;/* tamanho da fonte*/
+    }
+/* destaque maior uma fonte de um elemento*/
+h2 {
+    margin-top:20px; /*margem superior do conteudo*/
+    margin-bottom: 10px; /*margem inferior do conteudo*/
+    color: rgb(128, 10, 238);/* define a cor do texto*/
+    text-align: center;/* texto centralizado na página*/
+    font-size: 70px;/* tamanho da fonte*/
+}
+/* parágrafo, indentação facilita a leitura*/
+p {
+    margin-top:20px; /*margem superior do conteudo*/
+    color: rgb(128, 10, 238); /* define a cor do texto*/
+    text-align: center;/* texto centralizado na página*/
+    font-size: 60px;/* tamanho da fonte*/
+}
